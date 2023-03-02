@@ -1,0 +1,244 @@
+
+
+.a{
+
+background-image:url(img/img1.jpg); background-size: cover; height: 100vh; width: 100%; position: relative; overflow: hidden;
+   
+
+overflow: scroll;
+
+
+ }
+
+
+.title{
+
+   text-align: center;
+   font-family: Comic Sans MS ;
+   color: darkblue;
+   text-decoration: underline;
+
+
+}
+
+
+
+
+
+
+
+.img1{
+
+   margin-left: 150px;
+   margin-top: 80px;
+   
+   border-radius: 50%;
+
+}
+
+.img2{
+
+   margin-top: 80px;
+   padding-left: 50px;
+
+  border-radius: 50%;
+
+}
+
+
+.img3{
+
+   margin-top: 80px;
+   padding-left: 50px;
+
+
+   border-radius: 50%;
+}
+
+
+.p1,.p2,.p3{
+	font-size: 15px;
+	text-align: left;
+
+     font-family:poppins,sans-serif ;
+
+     padding-left: 20px;
+
+
+
+
+
+
+
+}
+
+
+.b1,.b2,.b5,.b3,.b4,.b6,.b9,.b10,.b11,.b13,.b14{
+
+     color: darkblue;
+     background-color: cyan;
+     text-decoration: underline;
+}
+
+.b7,.b8,.b12{
+
+  text-align: center;
+  font-weight: bold;
+  color: red;
+
+}
+
+
+.txt1{
+
+      padding-top: 20px;
+      padding-left: 50px;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: orange;
+      font-size: 25px;
+      text-decoration: underline;
+
+
+}
+
+
+.m{ 
+
+float: left ;
+width: 50%;
+padding-top: 50px;
+ font-family:poppins,sans-serif ;
+font-size: 20px;
+
+}
+
+
+
+
+.l{ 
+
+
+	width: 50%;
+	padding-top: 50px;
+    border-radius: 50%;
+
+
+
+}
+
+
+.abc{
+
+      font-style: italic;
+      color: royalblue;
+
+
+
+
+
+}
+
+
+
+
+
+
+.first{
+
+   float: right;
+   width: 50%;
+   margin-top: 200px;
+   
+   font-family: sans-serif;
+    color:black;
+    font-size: 50px;
+
+    
+}
+
+.first1{
+
+
+        width: 50%;
+        float: left;
+
+
+
+}
+
+.x{
+
+    font-size: 40px;
+    text-align: left;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bubbles img {width: 100px;animation: bubble 7s linear infinite;}
+
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+
+}
+
+
+
+@keyframes bubble{
+
+
+  0%{transform: translateY(0); opacity: 0;}
+  50%{ opacity: 5;}
+    70%{opacity: 5;}
+      100%{transform: translateY(-80vh); opacity: 0;}
+       
+
+}
+
+.bubbles img:nth-child(1){animation-delay: 1 s; width: 25px;}
+.bubbles img:nth-child(2){animation-delay: 3s; }
+.bubbles img:nth-child(3){animation-delay: 4.5s; width: 25px;}
+.bubbles img:nth-child(4){animation-delay: 3s; width: 25px;}
+.bubbles img:nth-child(5){animation-delay: 6s; width: 20px;}
+.bubbles img:nth-child(6){animation-delay: 7s; }
+.bubbles img:nth-child(7){animation-delay: 7s; width: 35px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
